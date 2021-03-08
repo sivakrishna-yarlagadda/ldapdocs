@@ -1,0 +1,15 @@
+name: 'LDAP Servers'
+description: 'Implements LDAP Server Configuration'
+type: module
+core_version_requirement: ^8.7.7 || ^9
+package: 'Lightweight Directory Access Protocol'
+
+configure: entity.ldap_server.collection
+
+dependencies:
+  - externalauth:externalauth
+
+# Information added by Drupal.org packaging script on 2020-12-17
+version: '8.x-4.0-beta1'
+project: 'ldap'
+datestamp: 1608240929
